@@ -1,0 +1,177 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+
+body {
+    overflow-x: hidden !important;
+}
+
+.container {
+    width: 100% !important;
+}
+
+header {
+    height: 100vh;
+}
+
+.landing-text {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.logo img {
+    width: 200px;
+}
+
+.landing-illurstration img {
+    width: 100%;
+}
+
+.passion-article {
+    text-align: justify;
+}
+
+.upload-cv {
+    background-color: #EB8145 !important;
+    font-weight: 400;
+    color: white;
+}
+
+.upload-cv:hover {
+    color: white;
+}
+
+.recruitment-note {
+    font-size: 16px;
+    font-weight: 300;
+    text-align: justify;
+    padding-right: 30px;
+}
+
+.recruitment-head {
+    max-width: 400px;
+}
+
+#recruitment {
+    background: #F4F8F1
+}
+
+.card-img-top {
+    padding: 10px 0px 0px 15px;
+    width: 60px;
+}
+
+.card-group-1 {
+    ;
+}
+
+.card {
+    position: relative;
+    margin: 15px !important;
+    height: 280px;
+}
+
+.move-card-down-1 {
+    margin-top: 70px !important;
+}
+
+.move-card-down-2 {
+    margin-top: 30px !important;
+}
+
+.move-card-up {
+    margin-top: -20px !important;
+}
+
+.card-title {
+    color: black;
+    margin-top: -7px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card-text {
+    font-size: 15px;
+    text-align: left;
+}
+
+.process-number {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 100px !important;
+    color: #EB8145;
+}
+
+#form-section {
+    background-image: url('../img/Design.png');
+    background-repeat: no-repeat;
+    background-position-x: -100px;
+    min-height: 800px;
+}
+
+#internal-networks-section {
+    margin-top: 0px;
+    background-image: url('../img/internal-value-bg.png');
+    background-repeat: no-repeat;
+    background-position: cover;
+    min-height: 400px;
+}
+
+.form-card {
+    height: 500px;
+    margin: auto;
+}
+
+.landing-text {}
+
+@media (max-width: 490px) {
+    .logo img {
+        width: 150px;
+        margin-bottom: 20px;
+    }
+    .landing-illurstration img {
+        margin-left: -7px;
+        width: 100%;
+    }
+    .passion-article {
+        text-align: justify;
+    }
+    .passion-article p {}
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-size: 16px;
+    }
+    .container {
+        width: 97% !important;
+    }
+    .landing-text div {
+        margin-top: 20px !important;
+    }
+    .move-card-down-1 {
+        margin-top: 15px !important;
+    }
+    .move-card-down-2 {
+        margin-top: 15px !important;
+    }
+    .move-card-up {
+        margin-top: 15px !important;
+    }
+    .card {
+        margin-bottom: 30px !important;
+        height: 270px;
+    }
+    .recruitment-note {
+        font-size: 16px;
+        font-weight: 300;
+        text-align: justify;
+        padding-right: 0px;
+    }
+}
