@@ -10,6 +10,14 @@ body {
     overflow-x: hidden !important;
 }
 
+h1 {
+    font-weight: 700;
+}
+
+h2 {
+    font-weight: 600;
+}
+
 .container {
     width: 100% !important;
 }
@@ -106,6 +114,7 @@ header {
     top: 15px;
     font-size: 100px !important;
     color: #EB8145;
+    font-weight: 900 !important;
 }
 
 #form-section {
@@ -130,13 +139,31 @@ header {
     align-items: center
 }
 
+.sub-resume-head {
+    margin-top: 35px !important;
+}
+
 .form-card {
     height: 500px;
     margin: auto;
 }
 
-.form-group {
+.form-group-sub {
     display: flex;
+}
+
+.portfolio-form input:focus {
+    outline-color: #89B369 !important;
+}
+
+.submit {
+    background-color: #89B369 !important;
+    color: white;
+    border-radius: 2px !important;
+}
+
+.portfolio-form input {
+    border-radius: 0px;
 }
 
 #email {
@@ -200,6 +227,16 @@ header {
 
 .landing-text {}
 
+.footer-social {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-social img {
+    width: 30px;
+    margin: 0px 5px;
+}
+
 @media (max-width: 490px) {
     .logo img {
         width: 150px;
@@ -247,5 +284,28 @@ header {
     .footer-logo img {
         margin-top: 20px;
         width: 150px;
+    }
+    .footer-social {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .copyright p {
+        font-size: 14px
+    }
+    .subscribe-heading h4 {
+        margin: 30px 0px 5px 0px;
+    }
+    .form-card {
+        height: 450px;
+        margin: auto;
+    }
+    .sub-resume-head {
+        margin-top: 100px !important;
+    }
+}
+
+@media(min-width:1390px) {
+    header {
+        height: 85vh !important;
     }
 }

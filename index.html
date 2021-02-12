@@ -33,7 +33,7 @@
     <div class="main-wrapper">
         <header class="container">
             <div class="logo py-3">
-                <img src="img/ERACONNECKT LOGO.png" alt="Eraconneckt">
+                <a href="index.html"><img src="img/ERACONNECKT LOGO.png" alt="Eraconneckt"></a>
             </div>
             <div class="row">
                 <div class="col-md-7 order-md-2 landing-illurstration">
@@ -53,7 +53,7 @@
         <main>
             <section class="py-5">
                 <div class="container">
-                    <div class="section-header my-3">
+                    <div class="section-header mb-3">
                         <div class="row">
                             <div class="col-12">
                                 <h2>Find your passion and Achieve Success</h2>
@@ -169,16 +169,32 @@
             </section>
 
             <section class="py-5" id="form-section">
-                <div class="container">
-                    <div class="section-header text-center text-white font-weight-bold my-3">
+                <div class="container sub-resume-head">
+                    <div class="section-header text-center text-white font-weight-bold mb-3 font-weight-bolder">
                         <h2>Submit Your Résumé </h2>
                     </div>
                 </div>
                 <div class="section-content form-container">
                     <div class="row">
-                        <div class="col-md-6 mx-auto">
+                        <div class="col-md-7 mx-auto">
                             <div class="card form-card shadow">
-
+                                <form class="portfolio-form w-75 mx-auto" id="form" method="POST">
+                                    <div class="form-group mb-3 mt-5">
+                                        <label for="" class="form-label">Email Address</label>
+                                        <input type="text" name="email" id="email-address" class="form-control shadow-sm" placeholder="Enter Your Email Address" aria-describedby="helpId">
+                                    </div>
+                                    <div class="form-group mb-3">
+                                        <label for="" class="form-label">Portfolio Link (Optional)</label>
+                                        <input type="text" name="link" id="link" class="form-control shadow-sm" placeholder="Add a link to your portfolio (github, behance, linkendin etc) " aria-describedby="helpId">
+                                    </div>
+                                    <div class="form-group mb-3">
+                                        <label for="" class="form-label">Attach Document</label><br>
+                                        <input type="file" name="Attachement" id="attachement" class="form-control form-file-input" placeholder="" aria-describedby="helpId">
+                                    </div>
+                                    <div class="form-group mt-5">
+                                        <input type="submit" name="Upload" id="attachement" class="form-control submit" value="Upload" aria-describedby="helpId">
+                                    </div>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -246,9 +262,9 @@
                                     </div>
                                     <div class="subscribe-form mt-4">
                                         <form>
-                                            <div class="form-group">
+                                            <div class="form-group-sub">
                                                 <input type="email" name="" id="email" placeholder="Your Email Address">
-                                                <button class="subscribe">Supscribe</button>
+                                                <button class="subscribe">Subscribe</button>
                                             </div>
                                         </form>
                                     </div>
@@ -264,7 +280,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-12">
-                            <div class="text-center">
+                            <div class="text-center copyright">
                                 <p>
                                     Copyright 2020 All right reserved | ERA Conneckt
                                 </p>
@@ -272,10 +288,10 @@
                         </div>
                         <div class="col-12">
                             <div class="footer-social">
-                                <img scr="./img/Linkedin icon.png" alt="linkedIn">
-                                <img scr="./img/twitter.jpg">
-                                <img scr="./img/twitter.jpg">
-                                <img scr="./img/twitter.jpg">
+                                <a href="#"><img src="./img/Twitter icon.png" alt="twitter" sizes="" srcset=""></a>
+                                <a href="#"> <img src="./img/Facebook icon.png" alt="twitter" sizes="" srcset=""></a>
+                                <a href="#"><img src="./img/Twitter icon.png" alt="twitter" sizes="" srcset=""></a>
+                                <a href="#"><img src="./img/Linkedin icon.png" alt="twitter" sizes="" srcset=""></a>
                             </div>
                         </div>
                     </div>
