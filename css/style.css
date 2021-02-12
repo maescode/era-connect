@@ -123,6 +123,13 @@ header {
     min-height: 400px;
 }
 
+.section-text-wraper {
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
 .form-card {
     height: 500px;
     margin: auto;
