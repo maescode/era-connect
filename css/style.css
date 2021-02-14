@@ -319,4 +319,8 @@ header {
         background-position: cover;
         min-height: 400px;
     }
+    .form-card {
+        min-height: 660px !important;
+        margin: auto;
+    }
 }
