@@ -144,8 +144,12 @@ header {
 }
 
 .form-card {
-    height: 500px;
+    min-height: 620px;
     margin: auto;
+}
+
+.drag-and-drop:hover {
+    cursor: pointer;
 }
 
 .form-group-sub {
@@ -296,7 +300,7 @@ header {
         margin: 30px 0px 5px 0px;
     }
     .form-card {
-        height: 450px;
+        min-height: 450px !important;
         margin: auto;
     }
     .sub-resume-head {
@@ -307,5 +311,12 @@ header {
 @media(min-width:1390px) {
     header {
         height: 85vh !important;
+    }
+    #internal-networks-section {
+        margin-top: 0px;
+        background-image: url('../img/internal-value-bg.png');
+        background-repeat: repeat-x;
+        background-position: cover;
+        min-height: 400px;
     }
 }
